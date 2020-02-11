@@ -1,3 +1,5 @@
+#Downloads and uses new version of webdriver
+
 from selenium import webdriver
 from webdriver_manager.chrome import ChromeDriverManager
 
