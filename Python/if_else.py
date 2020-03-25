@@ -9,3 +9,4 @@ elif age < 12:
     print ('You are not Jarek')
 elif age > 2000:
     print ('You are Jarek') #this statement is True so it executes in this block
+
