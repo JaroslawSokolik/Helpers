@@ -13,4 +13,4 @@ dropdown.select_by_index(0)
 
 
 
-# Select class
+# SELECT to be used only with select tag- you can choose what is inside by index, visible test, value.
