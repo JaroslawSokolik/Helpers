@@ -8,3 +8,9 @@ dropdown = Select(driver.find_element_by_id("exampleFormControlSelect1"))
 dropdown.select_by_visible_text("Female")
 sleep(2)
 dropdown.select_by_index(0)
+
+
+
+
+
+# Select class
