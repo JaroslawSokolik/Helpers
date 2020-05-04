@@ -7,3 +7,4 @@ driver.find_element_by_css_selector("input[name='name']").send_keys("Jarek") # t
 driver.find_element_by_name("email").send_keys("jirafolder@gmail.com")
 driver.find_element_by_id("exampleInputPassword1").send_keys("misiek69")
 driver.find_element_by_id("exampleCheck1").click()
+driver.find_element_by_xpath("//input[@type='submit']").click()
