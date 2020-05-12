@@ -19,6 +19,16 @@ tag name input with 3 attributes (minlenght, name, required type)
 
 input[name="name]
 
+RegEX
+
+<div class="alert alert-success alert-dismissible">
+
+Considering that tag name is optional we can write
+
+[class*=alert-success]
+
+* means that it will try to search only part of this 3 class attributes.
+
 CUSTOMIZED XPATH
 
 //tagname[@attribute='value'] -- Tagname optional
@@ -28,3 +38,15 @@ for example
 <input class="btn btn-success" type="submit" value="Submit" xpath="1">
 
 //input[@type='submit']
+
+RegEX template
+
+//*[contains(@attribute,'value')]
+
+for example
+
+<div class="alert alert-success alert-dismissible">
+
+//div[contains(@class,'alert-success')]
+
+//*[contains(@class,'alert-success')]
