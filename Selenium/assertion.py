@@ -9,6 +9,8 @@ driver.find_element_by_id("exampleInputPassword1").send_keys("misiek69")
 driver.find_element_by_id("exampleCheck1").click()
 driver.find_element_by_xpath("//input[@type='submit']").click()
 
-print(driver.find_element_by_class_name("alert-success").text)
+message = driver.find_element_by_class_name("alert-success").text
 
+assert "submitted successfully" in message #to check partial text
+assert "submitted successfully" == message # to check exact text
 

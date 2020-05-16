@@ -43,10 +43,14 @@ RegEX template
 
 //*[contains(@attribute,'value')]
 
-for example
-
-<div class="alert alert-success alert-dismissible">
+for example <div class="alert alert-success alert-dismissible">
 
 //div[contains(@class,'alert-success')]
 
 //*[contains(@class,'alert-success')]
+
+GENERATING XPATH BASED ON TEXT
+
+//tagname[text()='xxx']
+
+for example //class[text()='Cancel']
