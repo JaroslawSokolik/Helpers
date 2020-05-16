@@ -12,3 +12,4 @@ for city in cities:
     # print(len(cities)) to know how many of them are there
     if city.text =="Del Rio, United States":
         city.click()
+        break #to break because it has been found and we dont have to iterate other ones
