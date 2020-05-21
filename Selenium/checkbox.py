@@ -8,3 +8,4 @@ print(len(checkboxes))
 
 for checkbox in checkboxes:
     checkbox.click()
+    assert checkbox.is_selected()
