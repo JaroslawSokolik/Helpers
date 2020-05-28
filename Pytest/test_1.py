@@ -4,7 +4,8 @@
 
 # function bame must be test_
 
-# to run from console should open specific folder in console and write py.test to run all or py.test -v
+# to run from console should open specific folder in console and write py.test to run all or py.test -v -s
+# to run only 1 py.test test_1.py -v -s
 
 def test_demo_1():
     print("hello")
