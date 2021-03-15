@@ -2,12 +2,11 @@ UBUNTU
 
 Install Chromedriver
 
-sudo apt-get install chromium-chromedriver
+1. pip3 install selenium
+2. Download the selenium chrome webdriver
+https://sites.google.com/a/chromium.org/chromedriver/downloads
+3. Move the chrome webdriver to your bin folder
 
-to check where it is installed
+    $ sudo mv chromedriver /usr/local/bin
 
-which chromedriver
-
-To add to PATH
-
-export PATH=$PATH:/usr/lib/chromium-browser/
+4.export PATH=$PATH:/usr/local/bin/chromedriver
